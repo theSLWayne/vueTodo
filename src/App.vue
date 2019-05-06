@@ -36,7 +36,7 @@ export default {
         completed
       })
         .then(res => this.todos = [...this.todos, res.data])
-        .catch(err => console.log(err));
+        .catch();
     }
   },
   created(){
